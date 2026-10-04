@@ -2,96 +2,111 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Zecheng Zhu
+    - name: Location
+      value: London, United Kingdom
+    - name: Email
+      value: zecheng.zhu@outlook.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MRes in Artificial Intelligence and Machine Learning
+      institution: Imperial College London
+      year: Oct 2026 – Sep 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Started October 2026 with Prof. Stephen James in the Safe Whole-body Intelligent Robotics Lab (SWIRL).
+    - title: BEng in Electronic and Information Engineering
+      institution: Imperial College London
+      year: Sep 2023 – Jun 2026
       description:
-        - Description 1.
-        - Description 2.
+        - Grade 77.8/100 (First Class Honours), top 5% of the cohort.
+        - Coursework included Robotics, Machine Learning, Deep Learning, Control Systems, and Computer Vision.
 
-- title: Experience
+- title: Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: "SafeYield: A Generalizable Recovery Framework for Safe Robot Manipulation"
+      year: under review
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Zecheng Zhu, Stephen James. IEEE International Conference on Robotics and Automation (ICRA) 2027.
+    - title: "BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation"
+      year: under review
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Zexi Zhang, Zecheng Zhu, Zidong Chen, Zulkhuu Tuya, Stephen James. Equal contribution between the first two authors. ICRA 2027.
+    - title: Factored Q-Chunking
+      year: under review
       description:
+        - Zecheng Zhu, Hongze Yu, Stephen James. Equal contribution between the first two authors. International Conference on Learning Representations (ICLR) 2027.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Safe Whole-body Intelligent Robotics Lab (SWIRL)
+      institution: Imperial College London
+      year: Sep 2025 – Present
+      description:
+        - Advisor Prof. Stephen James.
+        - "Factored Q-Chunking: the slow part of a robot commits for a full action chunk, the fast part re-plans halfway, and each critic scores only its executed actions. Online fine-tuning success 0.102 to 0.327 on an arm and hand, and 0.302 to 0.480 on a mobile base with two arms."
+        - "SafeYield: one module on a frozen policy that yields to a person and resumes the task. On 10 BiGym tasks, collisions 78.8% to 1.6% and success 57.6% to 75.6%."
+        - "BiGym 2.0: household-manipulation benchmark for a walking Unitree G1, with 20 tasks and 60 human virtual-reality demonstrations per task."
+    - title: Research Intern
+      institution: PsiBot.AI
+      year: Mar 2026 – Aug 2026
+      description:
+        - Concurrent with SWIRL. Built a VLM critic for reinforcement-learning post-training of an in-house vision-language-action policy on a real dexterous-hand task, folding cardboard shipping boxes.
+    - title: Hybrid Robotics Lab
+      institution: University of California, Berkeley
+      year: Jun 2025 – Oct 2025
+      description:
+        - Part time. Trained one transformer locomotion policy spanning quadrupeds, bipeds, and humanoids over procedurally varied body shapes.
+    - title: Advisor Prof. Bo Tao
+      institution: Huazhong University of Science and Technology
+      year: Mar 2025 – Jun 2025
+      description:
+        - Part time. Fine-tuned a Unitree G1 locomotion policy to remain standing under shoves of up to 50 N, and deployed it on the real robot.
 
-- title: Honors and Awards
+- title: Industry Experience
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Embodied AI Engineer Internship
+      institution: Lightwheel AI, Shanghai
+      year: Jul 2025 – Oct 2025
+      description:
+        - Contributor to Lwlab, a large-scale robot simulation framework.
+        - Trained a PPO pick-and-place policy that deployed zero-shot on a real LeRobot arm.
 
-- title: Academic Interests
-  type: nested_list
+- title: Teaching
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Undergraduate Teaching Assistant and Peer Tutor
+      institution: Imperial College London
+      year: 2025 – 2026
+      description:
+        - Led Control Systems lab sessions and peer-tutored first-year mathematics.
 
-- title: Other Interests
-  type: list
+- title: Awards
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2026
+      items:
+        - Department of Computing Corporate Partnership Programme Prize
+        - 4th place, RSS 2026 workshop challenge on post-training robot foundation models
+    - year: 2024, 2025
+      items:
+        - Dean's List, Department of Electrical and Electronic Engineering, Imperial College London
+    - year: 2024 – 2025
+      items:
+        - Best Robotic Project Prize, Imperial College London
+
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Programming and ML
+      value: Python, C++, C, PyTorch, JAX, Git, LaTeX
+    - name: Methods
+      value: PPO, TD3, offline-to-online RL, diffusion and flow-matching policies, VLA post-training
+    - name: Simulation and robotics
+      value: MuJoCo, BiGym, ManiSkill 3, RoboCasa, Isaac Lab, Gazebo, ROS
+    - name: Hardware
+      value: LeRobot, Unitree G1

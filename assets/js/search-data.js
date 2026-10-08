@@ -417,6 +417,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/adaptive_navigation/";
+            },},{id: "projects-bigym-2-0",
+          title: 'BiGym 2.0',
+          description: "A humanoid household manipulation benchmark on the Unitree G1, with 20 tasks and 60 human VR demonstrations per task, scoring learned policies and coding agents on the same hidden seeds. Under review.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bigym2/";
             },},{id: "projects-genlocov2",
           title: 'GenlocoV2',
           description: "",

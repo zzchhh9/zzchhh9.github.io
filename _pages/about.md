@@ -84,6 +84,7 @@ Find more in my [Curriculum Vitae](/assets/pdf/CV_Zecheng_Zhu.pdf).
         </div>
         <div id="fqc" class="col-sm-8">
         <div class="title">Factored Q-Chunking</div>
+        <div class="author"><em><strong>Zecheng Zhu</strong></em>*, Hongze Yu*, and Stephen James</div>
         <div class="periodical"><em>Under review</em></div>
         <div class="links">
           <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>

@@ -39,23 +39,35 @@ Find more in my [Curriculum Vitae](/assets/pdf/CV_Zecheng_Zhu.pdf).
 
 ### Selected Projects
 
-##### SafeYield
+<div class="row mb-4">
+  <div class="col-sm-4 mb-2 mb-sm-0">
+    <a href="https://bigym2.github.io"><img src="{{ 'assets/img/bigym2.png' | relative_url }}" alt="BiGym 2.0 overview" class="img-fluid rounded z-depth-1" loading="lazy"></a>
+  </div>
+  <div class="col-sm-8">
+    <h5><a href="https://bigym2.github.io">BiGym 2.0</a></h5>
+    <p>A household-manipulation benchmark for a walking humanoid: BiGym adapted to the Unitree G1, with 20 tasks, 60 human virtual-reality demonstrations per task, and one shared whole-body controller. Under the same observations and actions, a cold-start coding agent averages 53% on nine tasks, close to a diffusion policy. Under review.</p>
+  </div>
+</div>
 
-A recovery module on a frozen manipulation policy. It detects a person entering the workspace, yields, returns to the pre-interruption pose, and restores the policy so the task resumes instead of restarting. On 10 BiGym tasks, collisions fell from 78.8% to 1.6% and success rose from 57.6% to 75.6%. Under review.
+<div class="row mb-4">
+  <div class="col-sm-4 mb-2 mb-sm-0">
+    <img src="{{ 'assets/img/safeyield.png' | relative_url }}" alt="SafeYield overview" class="img-fluid rounded z-depth-1" loading="lazy">
+  </div>
+  <div class="col-sm-8">
+    <h5>SafeYield</h5>
+    <p>A recovery module on a frozen manipulation policy. It detects a person entering the workspace, yields, returns to the pre-interruption pose, and restores the policy so the task resumes instead of restarting. On 10 BiGym tasks, collisions fell from 78.8% to 1.6% and success rose from 57.6% to 75.6%. Under review.</p>
+  </div>
+</div>
 
-
-
-##### Factored Q-Chunking
-
-In reinforcement learning from demonstrations, the slow part of the robot commits for a full action chunk while the fast part re-plans halfway, and each critic scores only the actions it executes. With the same actor and budget as Q-chunking, online fine-tuning success went from 0.102 to 0.327 on an arm and hand, and from 0.302 to 0.480 on a mobile base with two arms. Under review.
-
-
-
-##### BiGym 2.0
-
-A household-manipulation benchmark for a walking humanoid: BiGym adapted to the Unitree G1, with 20 tasks, 60 human virtual-reality demonstrations per task, and one shared whole-body controller. Under the same observations and actions, a cold-start coding agent averages 53% on nine tasks, close to a diffusion policy. Under review.
-
-
+<div class="row mb-4">
+  <div class="col-sm-4 mb-2 mb-sm-0">
+    <img src="{{ 'assets/img/fqc.png' | relative_url }}" alt="Factored Q-Chunking overview" class="img-fluid rounded z-depth-1" loading="lazy">
+  </div>
+  <div class="col-sm-8">
+    <h5>Factored Q-Chunking</h5>
+    <p>In reinforcement learning from demonstrations, the slow part of the robot commits for a full action chunk while the fast part re-plans halfway, and each critic scores only the actions it executes. With the same actor and budget as Q-chunking, online fine-tuning success went from 0.102 to 0.327 on an arm and hand, and from 0.302 to 0.480 on a mobile base with two arms. Under review.</p>
+  </div>
+</div>
 
 
 **Languages**: Python, C++, C, SQL, SystemVerilog  

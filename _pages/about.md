@@ -37,38 +37,62 @@ Prior to this, I did research with Berkeley Hybrid Robotics Lab, and interned at
 
 Find more in my [Curriculum Vitae](/assets/pdf/CV_Zecheng_Zhu.pdf).
 
-### Selected Projects
+<h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">selected projects</a></h2>
 
-<div class="row mb-4">
-  <div class="col-sm-4 mb-2 mb-sm-0">
-    <a href="https://bigym2.github.io"><img src="{{ 'assets/img/bigym2.png' | relative_url }}" alt="BiGym 2.0 overview" class="img-fluid rounded z-depth-1" loading="lazy"></a>
-  </div>
-  <div class="col-sm-8">
-    <h5><a href="https://bigym2.github.io">BiGym 2.0</a></h5>
-    <p>A household-manipulation benchmark for a walking humanoid: BiGym adapted to the Unitree G1, with 20 tasks, 60 human virtual-reality demonstrations per task, and one shared whole-body controller. Under the same observations and actions, a cold-start coding agent averages 53% on nine tasks, close to a diffusion policy. Under review.</p>
-  </div>
+<div class="publications">
+  <ol class="bibliography">
+    <li>
+      <div class="row">
+        <div class="col-sm-2 preview">
+          <img src="{{ 'assets/img/bigym2.png' | relative_url }}" class="preview z-depth-1 rounded" style="width: 100%; min-width: 80px; max-width: 200px;" alt="bigym2" loading="lazy">
+        </div>
+        <div id="bigym2" class="col-sm-8">
+        <div class="title">BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation</div>
+        <div class="author">Zexi Zhang*, <em><strong>Zecheng Zhu</strong></em>*, Zidong Chen, Zulkhuu Tuya, and Stephen James</div>
+        <div class="periodical"><em>Under review</em></div>
+        <div class="links">
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          <a href="https://arxiv.org/abs/2610.07594" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+          <a href="https://bigym2.github.io" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+        </div>
+        <div class="abstract hidden"><p>A household-manipulation benchmark for a walking humanoid: BiGym adapted to the Unitree G1, with 20 tasks, 60 human virtual-reality demonstrations per task, and one shared whole-body controller. Under the same observations and actions, a cold-start coding agent averages 53% on nine tasks, close to a diffusion policy. Under review.</p></div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <div class="col-sm-2 preview">
+          <img src="{{ 'assets/img/safeyield.png' | relative_url }}" class="preview z-depth-1 rounded" style="width: 100%; min-width: 80px; max-width: 200px;" alt="safeyield" loading="lazy">
+        </div>
+        <div id="safeyield" class="col-sm-8">
+        <div class="title">SafeYield: A Generalizable Recovery Framework for Safe Robot Manipulation</div>
+        <div class="author"><em><strong>Zecheng Zhu</strong></em> and Stephen James</div>
+        <div class="periodical"><em>Under review</em></div>
+        <div class="links">
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        </div>
+        <div class="abstract hidden"><p>A recovery module on a frozen manipulation policy. It detects a person entering the workspace, yields, returns to the pre-interruption pose, and restores the policy so the task resumes instead of restarting. On 10 BiGym tasks, collisions fell from 78.8% to 1.6% and success rose from 57.6% to 75.6%. Under review.</p></div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <div class="col-sm-2 preview">
+          <img src="{{ 'assets/img/fqc.png' | relative_url }}" class="preview z-depth-1 rounded" style="width: 100%; min-width: 80px; max-width: 200px;" alt="fqc" loading="lazy">
+        </div>
+        <div id="fqc" class="col-sm-8">
+        <div class="title">Factored Q-Chunking</div>
+        <div class="periodical"><em>Under review</em></div>
+        <div class="links">
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        </div>
+        <div class="abstract hidden"><p>In reinforcement learning from demonstrations, the slow part of the robot commits for a full action chunk while the fast part re-plans halfway, and each critic scores only the actions it executes. With the same actor and budget as Q-chunking, online fine-tuning success went from 0.102 to 0.327 on an arm and hand, and from 0.302 to 0.480 on a mobile base with two arms. Under review.</p></div>
+        </div>
+      </div>
+    </li>
+  </ol>
+  <p style="font-size: 0.8rem;">* Equal contribution</p>
 </div>
-
-<div class="row mb-4">
-  <div class="col-sm-4 mb-2 mb-sm-0">
-    <img src="{{ 'assets/img/safeyield.png' | relative_url }}" alt="SafeYield overview" class="img-fluid rounded z-depth-1" loading="lazy">
-  </div>
-  <div class="col-sm-8">
-    <h5>SafeYield</h5>
-    <p>A recovery module on a frozen manipulation policy. It detects a person entering the workspace, yields, returns to the pre-interruption pose, and restores the policy so the task resumes instead of restarting. On 10 BiGym tasks, collisions fell from 78.8% to 1.6% and success rose from 57.6% to 75.6%. Under review.</p>
-  </div>
-</div>
-
-<div class="row mb-4">
-  <div class="col-sm-4 mb-2 mb-sm-0">
-    <img src="{{ 'assets/img/fqc.png' | relative_url }}" alt="Factored Q-Chunking overview" class="img-fluid rounded z-depth-1" loading="lazy">
-  </div>
-  <div class="col-sm-8">
-    <h5>Factored Q-Chunking</h5>
-    <p>In reinforcement learning from demonstrations, the slow part of the robot commits for a full action chunk while the fast part re-plans halfway, and each critic scores only the actions it executes. With the same actor and budget as Q-chunking, online fine-tuning success went from 0.102 to 0.327 on an arm and hand, and from 0.302 to 0.480 on a mobile base with two arms. Under review.</p>
-  </div>
-</div>
-
 
 **Languages**: Python, C++, C, SQL, SystemVerilog  
 **Skills**: Isaac Sim/Gym/Lab, PyTorch, ROS, Linux, Git, Embedded Platforms (ESP/STM)

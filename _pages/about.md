@@ -37,6 +37,8 @@ Prior to this, I did research with Berkeley Hybrid Robotics Lab, and interned at
 
 Find more in my [Curriculum Vitae](/assets/pdf/CV_Zecheng_Zhu.pdf).
 
+<div style="clear: both;"></div>
+
 <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">selected projects</a></h2>
 
 <div class="publications">

@@ -29,7 +29,7 @@ latest_posts:
 
 
 
-Hii! I'm a Master by Research student in AI and Machine Learning at Imperial College London, supervised by [Prfs. Stephen James](https://stepjam.github.io) at [Safe Whole-body Intelligent Robotics Lab (SWIRL)](https://www.swirl.uk/home). I completed my BEng in Electronic and Information Engineering at Imperial College London.
+Hii! I'm a Master by Research student in AI and Machine Learning at Imperial College London, supervised by [Prof. Stephen James](https://stepjam.github.io) at the [Scalable Whole-body Intelligent Robot Learning (SWIRL) Lab](https://www.swirl.uk/home). I completed my BEng in Electronic and Information Engineering at Imperial College London.
 
 Prior to this, I did research with Berkeley Hybrid Robotics Lab, and interned at PsiBot on reinforcement learning post-training.
 

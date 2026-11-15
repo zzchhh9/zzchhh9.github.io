@@ -444,14 +444,14 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/zzczjh9", "_blank");
+          window.open("https://github.com/zzchhh9", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/zecheng-zhu", "_blank");
+          window.open("https://www.linkedin.com/in/zecheng-zhu-a38260246", "_blank");
         },
       },{
         id: 'social-inspire',
